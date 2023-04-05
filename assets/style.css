@@ -1,0 +1,36 @@
+                                    /*Border radius pone alisado en las esquinas*/ /*:hover es cuando pongo el mouse*/
+                                    /*cursor: pointer cambia el cursor*/ /*:activate es al apretar click*/
+.Container .boxLetra {
+    display: inline-block;
+    border: solid black;
+    padding: 30px;
+    margin: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 110px;
+    font-weight: bolder;
+    position: relative;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.boxLetra:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1) rotate(-20deg)
+}
+*{
+    font-family: 'Changa One', cursive;
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Changa+One&display=swap');
+}
+.Container {
+    padding: 15px;
+    padding-top: 80px;
+    width: 90vw;
+    height: 100vh;
+    margin: 15px;
+    background: rgb(159,251,221);
+    background: radial-gradient(circle, rgba(159,251,221,1) 0%, rgba(88,87,87,1) 100%);
+    text-align: center;
+}
